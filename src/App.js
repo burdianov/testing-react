@@ -14,7 +14,7 @@ const tempArr = [{
 function App() {
   return (
     <div className="App">
-      <Header />,
+      <Header />
       <section className='main'>
         <Headline header='Posts' desc='Click the button to render props.'
                   tempArr={tempArr} />
